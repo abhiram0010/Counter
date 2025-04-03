@@ -1,0 +1,77 @@
+/* Make the page centered */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+/* Centering main div */
+.main {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title Styling */
+h4 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+/* Counter Styling */
+#count {
+  font-size: 100px;
+  border-radius: 40px;
+  text-align: center;
+  width: 120px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+/* Buttons Container */
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  /* Proper gap between buttons */
+  margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+/* Different button colors */
+#increment {
+  background-color: rgb(17, 230, 35);
+}
+
+#decrement {
+  background-color: rgb(255, 255, 0);
+}
+
+#reset {
+  background-color: rgb(246, 21, 21);
+}
+
+/* Hover Effects */
+button:hover {
+  opacity: 0.8;
+}
